@@ -148,7 +148,6 @@ Local files that contain user-specific information are intentionally excluded fr
 ```text
 .env
 config.json
-widget.lock
 .venv/
 ```
 
