@@ -1,4 +1,4 @@
-# GlucoDesk
+# GlucoTop
 
 A lightweight Windows desktop widget that displays your current Dexcom glucose reading directly on the desktop.
 
@@ -30,8 +30,8 @@ The widget stays fixed in the bottom-right corner and automatically refreshes th
 Clone the repository:
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/GlucoDesk.git
-cd GlucoDesk
+git clone https://github.com/YOUR_USERNAME/GlucoTop.git
+cd GlucoTop
 ```
 
 Create a virtual environment:
@@ -82,13 +82,13 @@ With the virtual environment activated:
 py widget.py
 ```
 
-On the first launch, GlucoDesk asks you to choose your preferred glucose unit.
+On the first launch, GlucoTop asks you to choose your preferred glucose unit.
 
 Your choice is stored locally in `config.json`.
 
 ## Context Menu
 
-Right-click GlucoDesk to access:
+Right-click GlucoTop to access:
 
 * **Change unit**
 * **Refresh now**
@@ -109,7 +109,7 @@ Glucose thresholds are always evaluated using mg/dL, regardless of the selected 
 
 ## Reading Age
 
-GlucoDesk displays how old the current Dexcom reading is.
+GlucoTop displays how old the current Dexcom reading is.
 
 Example:
 
@@ -132,7 +132,7 @@ Older readings are visually highlighted so you can immediately see when the disp
 ## Project Structure
 
 ```text
-GlucoDesk/
+GlucoTop/
 │
 ├── widget.py
 ├── requirements.txt
@@ -154,11 +154,11 @@ widget.lock
 
 ## Disclaimer
 
-GlucoDesk is an unofficial desktop utility and is not affiliated with or endorsed by Dexcom.
+GlucoTop is an unofficial desktop utility and is not affiliated with or endorsed by Dexcom.
 
 It is intended for informational and personal-use purposes only.
 
-Do not use GlucoDesk as a replacement for the official Dexcom application, receiver, or other medical device.
+Do not use GlucoTop as a replacement for the official Dexcom application, receiver, or other medical device.
 
 ## License
 
